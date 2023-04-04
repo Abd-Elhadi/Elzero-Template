@@ -2,11 +2,6 @@
 This is a project for creating Elzero Template using HTML and CSS.
 I created it to practice my coding skills by building realistic projects.
 
-Kasper-Template
-
-This is a project for creating a [Kasper Template] using HTML and CSS.
-I created it to practice my HTML and CSS skills by building realistic projects.
-
 ## Table of contents
 
 - [Overview](#overview)
