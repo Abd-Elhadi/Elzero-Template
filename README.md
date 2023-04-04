@@ -50,7 +50,7 @@ Users should be able to:
 
 ### Links
 - Source Code URL: [here](https://github.com/Abd-Elhadi/Elzero-Template)
-- Live Site URL: [here](https://Abd-Elhadi.github.io/Kasper-Template/)
+- Live Site URL: [here](https://abd-elhadi.github.io/Elzero-Template/)
 
 ## My process
 
