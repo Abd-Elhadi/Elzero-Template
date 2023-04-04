@@ -48,10 +48,10 @@ Users should be able to:
 ![Services Screen](Screenshots/services.png?raw=true")
 
 #### Skills Screen 
-![Skills Screen](Screenshots/footer.png?raw=true")
+![Skills Screen](Screenshots/skills.png?raw=true")
 
 #### Footer Screen 
-![Footer Screen](Screenshots/skills.png?raw=true")
+![Footer Screen](Screenshots/footer.png?raw=true")
 
 ### Links
 - Source Code URL: [here](https://github.com/Abd-Elhadi/Elzero-Template)
