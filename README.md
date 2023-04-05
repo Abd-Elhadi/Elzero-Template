@@ -89,6 +89,12 @@ The designs were created to the following widths:
 
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/abdelhadiomarr)
 
+## Support
+For support, email abdelhadioumar@gmail.com.
+
+
+## Feedback
+If you have any feedback, please reach out to me at abdelhadioumar@gmail.com
 
 ## Acknowledgments
 * [Elzero Academy](https://elzero.org/)
