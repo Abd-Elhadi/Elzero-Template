@@ -3,12 +3,10 @@ let spans = document.querySelectorAll('.our-skills  .container .skills .skill .t
 let stats = document.querySelector('.stats');
 let statSpans = document.querySelectorAll('.stats .container .box span.number');
 let started = false;
-// console.log(statSpans);
-// console.log(skills);
-// console.log(ourSkills);
+
 
 window.onscroll = () => {
-    if (window.scrollY >= ourSkills.offsetTop) {
+    if (window.scrollY >= ourSkills.offsetTop - 250) {
         spans.forEach(span => {
             span.style.width = span.dataset.width;
         })
