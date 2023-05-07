@@ -68,9 +68,9 @@ let counter = setInterval(() => {
 
     let seconds = Math.floor(distance % (1000 * 60) / (1000));
 
-    document.querySelector('.days span').innerHTML = days;
-    document.querySelector('.hours span').innerHTML = hours;
-    document.querySelector('.minutes span').innerHTML = minutes;
+    document.querySelector('.days span').innerHTML = days < 10 ? `0${days}` : days;
+    document.querySelector('.hours span').innerHTML = hours < 10 ? `0${hours}` : hours;
+    document.querySelector('.minutes span').innerHTML = minutes < 10 ? `0${minutes}` : minutes;
     document.querySelector('.seconds span').innerHTML = seconds < 10 ? `0${seconds}` : seconds;
 
     if (distance < 0) {
