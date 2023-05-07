@@ -68,10 +68,10 @@ let counter = setInterval(() => {
 
     let seconds = Math.floor(distance % (1000 * 60) / (1000));
 
-    document.querySelector('.days span').innerHTML = days < 10 ? `0${days}` : days;
-    document.querySelector('.hours span').innerHTML = hours < 10 ? `0${hours}` : hours;
-    document.querySelector('.minutes span').innerHTML = minutes < 10 ? `0${minutes}` : minutes;
-    document.querySelector('.seconds span').innerHTML = seconds < 10 ? `0${seconds}` : seconds;
+    document.querySelector('.time .unit .days').innerHTML = days < 10 ? `0${days}` : days;
+    document.querySelector('.time .unit .hours').innerHTML = hours < 10 ? `0${hours}` : hours;
+    document.querySelector('.time .unit .minutes').innerHTML = minutes < 10 ? `0${minutes}` : minutes;
+    document.querySelector('.time .unit .seconds').innerHTML = seconds < 10 ? `0${seconds}` : seconds;
 
     if (distance < 0) {
         clearInterval(counter);
