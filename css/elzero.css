@@ -1023,6 +1023,7 @@ ul {
     color: var(--main-color);
     font-weight: bold;
 }
+
 .events .info .time .unit span:last-child {
     padding: 8px 10px;
     font-size: 13px;

@@ -47,3 +47,34 @@ megaMenuButton.addEventListener('click', e => {
         clickCounter = 0;
     }
 });
+
+// countdown up to the end of the year
+let countDownDate = new Date("Dec 31, 2023 23:59:59 ").getTime();
+
+let counter = setInterval(() => {
+    // get date now
+    let now = new Date().getTime();
+
+    // get the diffence between now and countdown date
+    let distance = countDownDate - now;
+
+    // get time units
+    // let days = Math.floor(distance / 1000 / 60 / 60 / 24);
+    let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+
+    let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+    let minutes = Math.floor(distance % (1000 * 60 * 60) / (1000 * 60));
+
+    let seconds = Math.floor(distance % (1000 * 60) / (1000));
+
+    document.querySelector('.days span').innerHTML = days;
+    document.querySelector('.hours span').innerHTML = hours;
+    document.querySelector('.minutes span').innerHTML = minutes;
+    document.querySelector('.seconds span').innerHTML = seconds < 10 ? `0${seconds}` : seconds;
+
+    if (distance < 0) {
+        clearInterval(counter);
+    }
+
+}, 1000);
