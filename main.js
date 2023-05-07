@@ -35,3 +35,15 @@ function startCount(element) {
         }
     }, 2000 / goal);
 }
+let clickCounter = 0;
+// get other links element
+let megaMenuButton = document.querySelector('.header .main-nav > li.mega');
+let megaMenuElement = document.querySelector('.header .main-nav > li .mega-menu');
+megaMenuButton.addEventListener('click', e => {
+    megaMenuButton.classList.add('menuOn');
+    clickCounter++;
+    if (clickCounter === 2) {
+        megaMenuButton.classList.remove('menuOn');
+        clickCounter = 0;
+    }
+});

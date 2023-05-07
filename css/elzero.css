@@ -174,7 +174,7 @@ ul {
     }
 }
 
-.header .main-nav > li:hover .mega-menu {
+.header .main-nav > li.menuOn .mega-menu {
     opacity: 1;
     z-index: 100;
     top: calc(100% + 1px);
